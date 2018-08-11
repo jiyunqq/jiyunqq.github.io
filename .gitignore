@@ -34,10 +34,16 @@ Temporary Items
 # debug file
 _site
 
-### jiyun add
+### jiyun add begin ###
 # 备份文件
 *.un~
 *~
 
+# gem
 Gemfile
 Gemfile.lock
+
+# other
+record.md
+
+### jiyun add end #####

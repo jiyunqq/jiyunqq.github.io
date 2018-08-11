@@ -100,16 +100,16 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "WY",
-        href: "http://zhengwuyang.com"
+        title: "联想",
+        href: "https://www.lenovo.com.cn/"
     },{
         title: "简书·jiyunqq",
         href: "https://www.jianshu.com/u/f7152358a7e8"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "微软下载",
+        href: "http://msdn.itellyou.cn/"
     },{
-        title: "Apple Developer",
-        href: "https://developer.apple.com/"
+        title: "mellanox",
+        href: "http://www.mellanox.com/"
     }
 ]
