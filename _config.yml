@@ -1,7 +1,7 @@
 # Site settings
 title: 际运的博客
 SEOTitle: 际运的博客 | jiyun Blog
-#header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-desk.jpg
 email: peterpeng888@qq.com
 description: "性本爱丘山"
 keyword: "jiyun, jiyun Blog, 际运的博客, jiyunqq, hpc, linux, hana"
@@ -39,7 +39,8 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+#gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 
 
 #theme: jekyll-theme-cayman
