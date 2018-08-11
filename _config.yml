@@ -1,7 +1,7 @@
 # Site settings
 title: 际运的博客
 SEOTitle: 际运的博客 | jiyun Blog
-header-img: img/post-bg-desk.jpg
+#header-img: img/post-bg-desk.jpg
 email: peterpeng888@qq.com
 description: "性本爱丘山"
 keyword: "jiyun, jiyun Blog, 际运的博客, jiyunqq, hpc, linux, hana"
@@ -42,14 +42,13 @@ anchorjs: true                          # if you want to customize anchor. check
 gems: [jekyll-paginate]
 
 
-
+#theme: jekyll-theme-cayman
 
 # Markdown settings
 # replace redcarpet to kramdown,
 # although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
 # document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
-theme: jekyll-theme-cayman
 highlighter: rouge
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important

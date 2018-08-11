@@ -34,6 +34,10 @@ Temporary Items
 # debug file
 _site
 
+### jiyun add
 # 备份文件
 *.un~
 *~
+
+Gemfile
+Gemfile.lock
