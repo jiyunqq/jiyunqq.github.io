@@ -1,3 +1,9 @@
+### 说明
+
+> 套用别人的博客, 可以少走很多的路.
+> 所以下面的说明我一点也没有改. 供大家参考
+
+
 # BY Blog
 
 > 下面是博客的搭建教程，这个教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 。
