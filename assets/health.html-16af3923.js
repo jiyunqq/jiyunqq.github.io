@@ -1,0 +1,7 @@
+import{_ as e,P as a,Q as t,a3 as d}from"./framework-62102715.js";const h={},r=d(`<h1 id="hpc集群健康检查" tabindex="-1"><a class="header-anchor" href="#hpc集群健康检查" aria-hidden="true">#</a> hpc集群健康检查</h1><h3 id="网络连通性检查" tabindex="-1"><a class="header-anchor" href="#网络连通性检查" aria-hidden="true">#</a> 网络连通性检查</h3><div class="language-text" data-ext="text"><pre class="language-text"><code>pping all
+
+</code></pre></div><h3 id="时间同步检查" tabindex="-1"><a class="header-anchor" href="#时间同步检查" aria-hidden="true">#</a> 时间同步检查</h3><div class="language-text" data-ext="text"><pre class="language-text"><code>psh all date
+</code></pre></div><h3 id="共享目录状态检查" tabindex="-1"><a class="header-anchor" href="#共享目录状态检查" aria-hidden="true">#</a> 共享目录状态检查</h3><div class="language-text" data-ext="text"><pre class="language-text"><code>psh all &quot;df -h | grep share&quot;
+</code></pre></div><h3 id="用户管理检查" tabindex="-1"><a class="header-anchor" href="#用户管理检查" aria-hidden="true">#</a> 用户管理检查</h3><div class="language-text" data-ext="text"><pre class="language-text"><code>psh all &quot;ypcat passwd | head -1&quot;
+</code></pre></div><h3 id="调度系统检查" tabindex="-1"><a class="header-anchor" href="#调度系统检查" aria-hidden="true">#</a> 调度系统检查</h3><div class="language-text" data-ext="text"><pre class="language-text"><code>sinfo -l
+</code></pre></div>`,11),s=[r];function c(n,l){return a(),t("div",null,s)}const o=e(h,[["render",c],["__file","health.html.vue"]]);export{o as default};
